@@ -1,0 +1,4 @@
+# name type value
+explore-market-trends:
+  type: "xpath"
+  value: "//div[contains(text(), 'Explore market trends')]"

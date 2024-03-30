@@ -1,0 +1,4 @@
+# name type value
+stock-price:
+  type: "xpath"
+  value: "((//*[contains(text(), 'Closed:')]//ancestor::*)[14]//*[contains(text(), '$')])[1]"
