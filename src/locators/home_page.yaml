@@ -1,0 +1,72 @@
+# name type value
+search-box:
+  type: "xpath"
+  value: "//*[.='Build a watchlist']//ancestor::*[4]/preceding-sibling::*[1]/*[last()]//input[2]"
+
+sign-in:
+  type: "xpath"
+  value: "//a[.='Sign in']"
+
+email:
+  type: "xpath"
+  value: "//*[@type='email']"
+
+next_button:
+  type: "xpath"
+  value: "//span[.='Next']"
+
+password:
+  type: "xpath"
+  value: "//input[@type='password']"
+
+wrong_password_text:
+  type: "xpath"
+  value: "//span[.='Wrong password. Try again or click ‘Forgot password’ to reset it.']"
+
+most-active:
+  type: "xpath"
+  value: "//*[.='Most active']"
+
+markets-india:
+  type: "xpath"
+  value: "(//div[text()='India' and @role='tab'])"
+
+markets-europe:
+  type: "xpath"
+  value: "(//div[text()='Europe' and @role='tab'])"
+
+markets-us:
+  type: "xpath"
+  value: "(//div[text()='US' and @role='tab'])"
+
+index-dow-jones:
+  type: "xpath"
+  value: "(//*[.='Dow Jones'])[1]"
+
+index-dax:
+  type: "xpath"
+  value: "(//*[.='DAX'])[1]"
+
+index-nifty-50:
+  type: "xpath"
+  value: "(//*[.='NIFTY 50'])[1]"
+
+top-stories:
+  type: "xpath"
+  value: "//*[.='Top stories']"
+
+local-market:
+  type: "xpath"
+  value: "//*[.='Local market']"
+
+world-markets:
+  type: "xpath"
+  value: "//*[.='World markets']"
+
+most-followed-list:
+  type: "xpath"
+  value: "//*[.='Most followed on Google']/following-sibling::*//a"
+
+discover-more:
+  type: "xpath"
+  value: "//*[@role='listitem']"
